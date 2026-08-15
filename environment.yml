@@ -1,0 +1,11 @@
+name: ldfgn
+channels:
+  - defaults
+dependencies:
+  - python=3.12.7
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - scipy==1.16.1
+      - scikit-learn==1.5.1
+      - torch==2.8.0
